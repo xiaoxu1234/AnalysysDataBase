@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60A3FFB677B4912946692C78D078E7D3 /* AnalysysSqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F133C40878DAEA7AB6E73E0164D04D5 /* AnalysysSqlite3.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6712F521327521C31CF20844B9413F51 /* AnalysysSqlite3.m in Sources */ = {isa = PBXBuildFile; fileRef = D280B9B3D96FDAFEE89F8FFE8B6E42C7 /* AnalysysSqlite3.m */; };
+		96C2B18A78E56F99930F9093B5262F23 /* Pods-AnalysysDataBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC7F84879B1BB29DFFFE048D277EA1B /* Pods-AnalysysDataBase_Tests-dummy.m */; };
+		A69D0C6D4801BAE7074EAAE5A8FE5DA9 /* Pods-AnalysysDataBase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C2226C7B27E1C1836134DDE03CE42F /* Pods-AnalysysDataBase_Example-dummy.m */; };
+		DB837FC7E9E629D6FECE0AD46F8F90B2 /* AnalysysDataBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21ACD0064FC50B126705A64BF714AFB8 /* AnalysysDataBase-dummy.m */; };
+		DFA514514D6E45CF5F104B179F109B5D /* AnalysysDataBase.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5CCA141544AA9173DA951D947EF517 /* AnalysysDataBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB8018F738D46C3DC034723B80D423AA /* AnalysysDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5323204C7A8B19D04D082FE406823BDB /* AnalysysDataBase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		224149AB82F9E219E203B7F786CD6B28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D57E6887EDADD0B3CCE594ABF5F29D2B;
+			remoteInfo = "Pods-AnalysysDataBase_Example";
+		};
+		DA85F8127C1279A5E0E8617A1E8ECA75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B398C41666136B425067D878B756424A;
+			remoteInfo = AnalysysDataBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16AC2147A8183274A7F750F98CAB1419 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		172E49BB057492882DA8C9D8927C74DC /* AnalysysDataBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnalysysDataBase.release.xcconfig; sourceTree = "<group>"; };
+		21ACD0064FC50B126705A64BF714AFB8 /* AnalysysDataBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnalysysDataBase-dummy.m"; sourceTree = "<group>"; };
+		2C2D9AD718F7E73E6B073DC947C56336 /* AnalysysDataBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnalysysDataBase-prefix.pch"; sourceTree = "<group>"; };
+		3C386A255C434B3871099DB60E29780F /* Pods-AnalysysDataBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnalysysDataBase_Example.release.xcconfig"; sourceTree = "<group>"; };
+		40BAD3BA9FF4CC1A8A1C02997D8BFB9B /* Pods-AnalysysDataBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnalysysDataBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4F133C40878DAEA7AB6E73E0164D04D5 /* AnalysysSqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnalysysSqlite3.h; path = AnalysysDataBase/Classes/AnalysysSqlite3.h; sourceTree = "<group>"; };
+		5323204C7A8B19D04D082FE406823BDB /* AnalysysDataBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnalysysDataBase.m; path = AnalysysDataBase/Classes/AnalysysDataBase.m; sourceTree = "<group>"; };
+		66830CC63F073B86AD01161FBB734721 /* AnalysysDataBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AnalysysDataBase.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		675277FBFCA21110DDB476B74B12AF86 /* Pods-AnalysysDataBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnalysysDataBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		85C597898A6E486CC17E748997C3FB4D /* Pods-AnalysysDataBase_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnalysysDataBase_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CAE5C2F1186F6251DF2B9D9EADF0A69 /* Pods-AnalysysDataBase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnalysysDataBase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		998A9E9B179AB481D5D46E2975D944FE /* libPods-AnalysysDataBase_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AnalysysDataBase_Example.a"; path = "libPods-AnalysysDataBase_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2C2226C7B27E1C1836134DDE03CE42F /* Pods-AnalysysDataBase_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnalysysDataBase_Example-dummy.m"; sourceTree = "<group>"; };
+		B92D072058CE3359E2F32541CF925303 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BD2F17F340B9C8B2BD7BD36074EDDA70 /* AnalysysDataBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnalysysDataBase.debug.xcconfig; sourceTree = "<group>"; };
+		CCC7F84879B1BB29DFFFE048D277EA1B /* Pods-AnalysysDataBase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnalysysDataBase_Tests-dummy.m"; sourceTree = "<group>"; };
+		CDB879D000F845480FA7C99D531ABBBA /* libPods-AnalysysDataBase_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AnalysysDataBase_Tests.a"; path = "libPods-AnalysysDataBase_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE7C59C06620D14A8EF0B7AB4539AFE /* Pods-AnalysysDataBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnalysysDataBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF917E3D58B306902D7E8E24C1665839 /* Pods-AnalysysDataBase_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnalysysDataBase_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D280B9B3D96FDAFEE89F8FFE8B6E42C7 /* AnalysysSqlite3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnalysysSqlite3.m; path = AnalysysDataBase/Classes/AnalysysSqlite3.m; sourceTree = "<group>"; };
+		DC5CCA141544AA9173DA951D947EF517 /* AnalysysDataBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnalysysDataBase.h; path = AnalysysDataBase/Classes/AnalysysDataBase.h; sourceTree = "<group>"; };
+		E59C52A44DDA8603784E732C144793B7 /* Pods-AnalysysDataBase_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnalysysDataBase_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB5E215DB07778E06CD97FFE64DFEE8E /* libAnalysysDataBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAnalysysDataBase.a; path = libAnalysysDataBase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAA3389630E359C265232A0D2A674EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40756E33494CB1FC89BA6FAF81CBDC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB870A144D282B8737D24FAB1360434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20A05D049F84EE71C1AC62B667B2D364 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				66830CC63F073B86AD01161FBB734721 /* AnalysysDataBase.podspec */,
+				B92D072058CE3359E2F32541CF925303 /* LICENSE */,
+				16AC2147A8183274A7F750F98CAB1419 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		27CBE4A6A0607D108E965FBABBC1F400 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95F2D758980A7CBD4F103E7F26005C98 /* AnalysysDataBase */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		356B7C94047D542469B63C231DD5419F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB5E215DB07778E06CD97FFE64DFEE8E /* libAnalysysDataBase.a */,
+				998A9E9B179AB481D5D46E2975D944FE /* libPods-AnalysysDataBase_Example.a */,
+				CDB879D000F845480FA7C99D531ABBBA /* libPods-AnalysysDataBase_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5723517E51CB01801AA7671EB25857BE /* Pods-AnalysysDataBase_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8CAE5C2F1186F6251DF2B9D9EADF0A69 /* Pods-AnalysysDataBase_Tests-acknowledgements.markdown */,
+				CF917E3D58B306902D7E8E24C1665839 /* Pods-AnalysysDataBase_Tests-acknowledgements.plist */,
+				CCC7F84879B1BB29DFFFE048D277EA1B /* Pods-AnalysysDataBase_Tests-dummy.m */,
+				CEE7C59C06620D14A8EF0B7AB4539AFE /* Pods-AnalysysDataBase_Tests.debug.xcconfig */,
+				40BAD3BA9FF4CC1A8A1C02997D8BFB9B /* Pods-AnalysysDataBase_Tests.release.xcconfig */,
+			);
+			name = "Pods-AnalysysDataBase_Tests";
+			path = "Target Support Files/Pods-AnalysysDataBase_Tests";
+			sourceTree = "<group>";
+		};
+		95F2D758980A7CBD4F103E7F26005C98 /* AnalysysDataBase */ = {
+			isa = PBXGroup;
+			children = (
+				DC5CCA141544AA9173DA951D947EF517 /* AnalysysDataBase.h */,
+				5323204C7A8B19D04D082FE406823BDB /* AnalysysDataBase.m */,
+				4F133C40878DAEA7AB6E73E0164D04D5 /* AnalysysSqlite3.h */,
+				D280B9B3D96FDAFEE89F8FFE8B6E42C7 /* AnalysysSqlite3.m */,
+				20A05D049F84EE71C1AC62B667B2D364 /* Pod */,
+				B818B76AC4CD0FCAEF2BE2D3DF25CB39 /* Support Files */,
+			);
+			name = AnalysysDataBase;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9FD1EE9B8D79BCAECFBD1B8DD5509075 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D47FAC70C6CBF846C8F5285A0446CEFF /* Pods-AnalysysDataBase_Example */,
+				5723517E51CB01801AA7671EB25857BE /* Pods-AnalysysDataBase_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B818B76AC4CD0FCAEF2BE2D3DF25CB39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21ACD0064FC50B126705A64BF714AFB8 /* AnalysysDataBase-dummy.m */,
+				2C2D9AD718F7E73E6B073DC947C56336 /* AnalysysDataBase-prefix.pch */,
+				BD2F17F340B9C8B2BD7BD36074EDDA70 /* AnalysysDataBase.debug.xcconfig */,
+				172E49BB057492882DA8C9D8927C74DC /* AnalysysDataBase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AnalysysDataBase";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				27CBE4A6A0607D108E965FBABBC1F400 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				356B7C94047D542469B63C231DD5419F /* Products */,
+				9FD1EE9B8D79BCAECFBD1B8DD5509075 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D47FAC70C6CBF846C8F5285A0446CEFF /* Pods-AnalysysDataBase_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E59C52A44DDA8603784E732C144793B7 /* Pods-AnalysysDataBase_Example-acknowledgements.markdown */,
+				85C597898A6E486CC17E748997C3FB4D /* Pods-AnalysysDataBase_Example-acknowledgements.plist */,
+				B2C2226C7B27E1C1836134DDE03CE42F /* Pods-AnalysysDataBase_Example-dummy.m */,
+				675277FBFCA21110DDB476B74B12AF86 /* Pods-AnalysysDataBase_Example.debug.xcconfig */,
+				3C386A255C434B3871099DB60E29780F /* Pods-AnalysysDataBase_Example.release.xcconfig */,
+			);
+			name = "Pods-AnalysysDataBase_Example";
+			path = "Target Support Files/Pods-AnalysysDataBase_Example";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34B9EF94FDB7EE1BBE02B42D7F09A7AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA514514D6E45CF5F104B179F109B5D /* AnalysysDataBase.h in Headers */,
+				60A3FFB677B4912946692C78D078E7D3 /* AnalysysSqlite3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8241C7AF2098CCF4236C0C72733198C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C02A4D83FAB089124C52397051DF8C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B398C41666136B425067D878B756424A /* AnalysysDataBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC348D82CB22D4181273520B95CD89F /* Build configuration list for PBXNativeTarget "AnalysysDataBase" */;
+			buildPhases = (
+				34B9EF94FDB7EE1BBE02B42D7F09A7AD /* Headers */,
+				D87689B7C15D2FC378C3762AD671DB49 /* Sources */,
+				AAA3389630E359C265232A0D2A674EE5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnalysysDataBase;
+			productName = AnalysysDataBase;
+			productReference = EB5E215DB07778E06CD97FFE64DFEE8E /* libAnalysysDataBase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D57E6887EDADD0B3CCE594ABF5F29D2B /* Pods-AnalysysDataBase_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C166464B285DFD8720452B86AE51B6E /* Build configuration list for PBXNativeTarget "Pods-AnalysysDataBase_Example" */;
+			buildPhases = (
+				8C02A4D83FAB089124C52397051DF8C7 /* Headers */,
+				070D137A1892142ECA00CECD7406997F /* Sources */,
+				DEB870A144D282B8737D24FAB1360434 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CF4168200063CCB05415E9C37D4B8AF /* PBXTargetDependency */,
+			);
+			name = "Pods-AnalysysDataBase_Example";
+			productName = "Pods-AnalysysDataBase_Example";
+			productReference = 998A9E9B179AB481D5D46E2975D944FE /* libPods-AnalysysDataBase_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E892CF6E449257BDE2C156DDBA19F67F /* Pods-AnalysysDataBase_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CDDA4A6930CB2B1C9BED8858422465 /* Build configuration list for PBXNativeTarget "Pods-AnalysysDataBase_Tests" */;
+			buildPhases = (
+				8241C7AF2098CCF4236C0C72733198C5 /* Headers */,
+				0CEBB07DB447CE6101C960CFF9494094 /* Sources */,
+				B40756E33494CB1FC89BA6FAF81CBDC5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C6E727B06B8393747E37A5F1153D920 /* PBXTargetDependency */,
+			);
+			name = "Pods-AnalysysDataBase_Tests";
+			productName = "Pods-AnalysysDataBase_Tests";
+			productReference = CDB879D000F845480FA7C99D531ABBBA /* libPods-AnalysysDataBase_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 356B7C94047D542469B63C231DD5419F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B398C41666136B425067D878B756424A /* AnalysysDataBase */,
+				D57E6887EDADD0B3CCE594ABF5F29D2B /* Pods-AnalysysDataBase_Example */,
+				E892CF6E449257BDE2C156DDBA19F67F /* Pods-AnalysysDataBase_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		070D137A1892142ECA00CECD7406997F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69D0C6D4801BAE7074EAAE5A8FE5DA9 /* Pods-AnalysysDataBase_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CEBB07DB447CE6101C960CFF9494094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C2B18A78E56F99930F9093B5262F23 /* Pods-AnalysysDataBase_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87689B7C15D2FC378C3762AD671DB49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB837FC7E9E629D6FECE0AD46F8F90B2 /* AnalysysDataBase-dummy.m in Sources */,
+				FB8018F738D46C3DC034723B80D423AA /* AnalysysDataBase.m in Sources */,
+				6712F521327521C31CF20844B9413F51 /* AnalysysSqlite3.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C6E727B06B8393747E37A5F1153D920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AnalysysDataBase_Example";
+			target = D57E6887EDADD0B3CCE594ABF5F29D2B /* Pods-AnalysysDataBase_Example */;
+			targetProxy = 224149AB82F9E219E203B7F786CD6B28 /* PBXContainerItemProxy */;
+		};
+		6CF4168200063CCB05415E9C37D4B8AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AnalysysDataBase;
+			target = B398C41666136B425067D878B756424A /* AnalysysDataBase */;
+			targetProxy = DA85F8127C1279A5E0E8617A1E8ECA75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BDC48A02D8141AE8FBA512D10B19542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C386A255C434B3871099DB60E29780F /* Pods-AnalysysDataBase_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42B5D3C71991F0BF36A371D804862BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE7C59C06620D14A8EF0B7AB4539AFE /* Pods-AnalysysDataBase_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51EBE11709447CA1C489AB040C75D26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 172E49BB057492882DA8C9D8927C74DC /* AnalysysDataBase.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AnalysysDataBase/AnalysysDataBase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AnalysysDataBase;
+				PRODUCT_NAME = AnalysysDataBase;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7858F38E9EA9B17F9AAE9B7D9B79EB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 675277FBFCA21110DDB476B74B12AF86 /* Pods-AnalysysDataBase_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F9625C85EBD53735BA3DBCE1B4FE23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2F17F340B9C8B2BD7BD36074EDDA70 /* AnalysysDataBase.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AnalysysDataBase/AnalysysDataBase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AnalysysDataBase;
+				PRODUCT_NAME = AnalysysDataBase;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DF1989FC101DE9B269F81ED72DBEC411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40BAD3BA9FF4CC1A8A1C02997D8BFB9B /* Pods-AnalysysDataBase_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C166464B285DFD8720452B86AE51B6E /* Build configuration list for PBXNativeTarget "Pods-AnalysysDataBase_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7858F38E9EA9B17F9AAE9B7D9B79EB1A /* Debug */,
+				0BDC48A02D8141AE8FBA512D10B19542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DC348D82CB22D4181273520B95CD89F /* Build configuration list for PBXNativeTarget "AnalysysDataBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9625C85EBD53735BA3DBCE1B4FE23A /* Debug */,
+				51EBE11709447CA1C489AB040C75D26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3CDDA4A6930CB2B1C9BED8858422465 /* Build configuration list for PBXNativeTarget "Pods-AnalysysDataBase_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B5D3C71991F0BF36A371D804862BBF /* Debug */,
+				DF1989FC101DE9B269F81ED72DBEC411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

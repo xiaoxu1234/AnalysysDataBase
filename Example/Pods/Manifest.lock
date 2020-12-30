@@ -1,0 +1,16 @@
+PODS:
+  - AnalysysDataBase (0.0.1)
+
+DEPENDENCIES:
+  - AnalysysDataBase (from `../`)
+
+EXTERNAL SOURCES:
+  AnalysysDataBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnalysysDataBase: 0ef7a83426daf81ef3dd50f1ec7c369a592cb69d
+
+PODFILE CHECKSUM: 917c38a0c3358cfe612caa6faa0dae8aae05e365
+
+COCOAPODS: 1.9.3
