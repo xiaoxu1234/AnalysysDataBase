@@ -14,6 +14,5 @@
 - (BOOL)execTableWithSql:(NSString *)sql params:(NSArray *)params;
 
 - (NSArray *)selectTableWithSql:(NSString *)sql params:(NSArray *)params;
-- (void)selectTableWithSql:(NSString *)sql params:(NSArray *)params finshBlock:(void(^)(NSArray *arr))block;
 @end
 

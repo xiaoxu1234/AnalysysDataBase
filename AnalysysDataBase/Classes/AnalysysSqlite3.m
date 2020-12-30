@@ -240,15 +240,4 @@
         }
 }
 
-- (void)selectTableWithSql:(NSString *)sql params:(NSArray *)params finshBlock:(void(^)(NSArray *arr))block {
-    dispatch_async(dispatch_get_global_queue(0, 0), ^{
-        NSArray *array =[self selectTableWithSql:sql params:params];
-        dispatch_async(dispatch_get_main_queue(), ^{
-            if (block) {
-                block(array);
-            }
-        });
-    });
-}
-
 @end

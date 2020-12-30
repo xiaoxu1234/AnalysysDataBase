@@ -15,6 +15,7 @@
 
 @interface AnalysysDataBase()
 
+@property (nonatomic,strong) dispatch_queue_t serialQueue;
 @property (nonatomic,strong) AnalysysSqlite3 *dataBase;
 
 @end
@@ -35,7 +36,18 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
+        self.serialQueue = dispatch_queue_create("com.analysys.serial", DISPATCH_QUEUE_SERIAL);
         self.dataBase = [[AnalysysSqlite3 alloc] init];
+        [self createTableSuccess:^(BOOL isSuccess) {
+            //
+        }];
+    }
+    return self;;
+}
+
+- (void)createTableSuccess:(void(^)(BOOL isSuccess))block {
+    dispatch_async(self.serialQueue, ^{
+        
         NSString *sql = @"CREATE TABLE 'AnalysysLog' (id INTEGER PRIMARY KEY, 'log' TEXT,'time' TEXT)";
         BOOL b = [self.dataBase createTableWithSql:sql];
         if (b) {
@@ -43,32 +55,45 @@
         } else {
             NSLog(@"AnalysysLog表创建失败");
         }
-    }
-    return self;;
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            block(b);
+        });
+    });
 }
 
-- (BOOL)insertLog:(NSString *)log {
-    NSString *sql = @"insert into AnalysysLog(log,time) values(?,?)";
-    NSString *time = [NSString stringWithFormat:@"%lf",[[NSDate date] timeIntervalSince1970] * 1000];
-    BOOL b = [self.dataBase execTableWithSql:sql params:@[log,time]];
-    if (b) {
-        NSLog(@"插入数据成功");
-    } else {
-        NSLog(@"插入数据失败");
-    }
-    return b;
-}
-
-- (NSArray *)selectLog {
-    NSString *sql = @"select * from AnalysysLog";
-    return [self.dataBase selectTableWithSql:sql params:nil];
+- (void)insertLog:(NSString *)log success:(void(^)(BOOL isSuccess))block {
+    
+    dispatch_async(self.serialQueue, ^{
+        NSString *sql = @"insert into AnalysysLog(log,time) values(?,?)";
+        NSString *time = [NSString stringWithFormat:@"%lf",[[NSDate date] timeIntervalSince1970] * 1000];
+        BOOL b = [self.dataBase execTableWithSql:sql params:@[log,time]];
+        if (b) {
+            NSLog(@"插入数据成功");
+        } else {
+            NSLog(@"插入数据失败");
+        }
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            block(b);
+        });
+        
+    });
 }
 
 - (void)selectLogFinshBlock:(void(^)(NSArray *arr))block {
-    NSString *sql = @"select * from AnalysysLog";
-    [self.dataBase selectTableWithSql:sql params:nil finshBlock:^(NSArray *arr) {
-        block(arr);
-    }];
+    
+    dispatch_async(self.serialQueue, ^{
+        
+        NSString *sql = @"select * from AnalysysLog";
+        NSArray *array = [self.dataBase selectTableWithSql:sql params:nil];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (block) {
+                block(array);
+            }
+        });
+    });
 }
 
 @end

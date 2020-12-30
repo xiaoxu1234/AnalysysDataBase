@@ -35,6 +35,8 @@
 }
 
 - (IBAction)insertAction:(id)sender {
-    [[AnalysysDataBase sharedManager] insertLog:@"aaaaaaaaaa"];
+    [[AnalysysDataBase sharedManager] insertLog:@"aaaaaaaaaa" success:^(BOOL isSuccess) {
+        //
+    }];
 }
 @end
