@@ -123,6 +123,8 @@
             const char *errorMsg = sqlite3_errmsg(_db);
             NSString *error = [NSString stringWithCString:errorMsg encoding:NSUTF8StringEncoding];
             NSLog(@"%@",error);
+            sqlite3_finalize(stmt);
+            sqlite3_close(_db);
             return NO;
         }
         
