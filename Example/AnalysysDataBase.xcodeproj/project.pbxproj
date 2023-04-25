@@ -247,7 +247,7 @@
 				ORGANIZATIONNAME = xiaoxu1234;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = LJHDHDMM85;
+						DevelopmentTeam = U4BR6RZ3K7;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -478,7 +478,7 @@
 			baseConfigurationReference = 1DAF214BBF8995A85979CF80 /* Pods-AnalysysDataBase_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = LJHDHDMM85;
+				DEVELOPMENT_TEAM = U4BR6RZ3K7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AnalysysDataBase/AnalysysDataBase-Prefix.pch";
 				INFOPLIST_FILE = "AnalysysDataBase/AnalysysDataBase-Info.plist";
@@ -495,7 +495,7 @@
 			baseConfigurationReference = 2973E75BB5594B04D6A9F2B4 /* Pods-AnalysysDataBase_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = LJHDHDMM85;
+				DEVELOPMENT_TEAM = U4BR6RZ3K7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AnalysysDataBase/AnalysysDataBase-Prefix.pch";
 				INFOPLIST_FILE = "AnalysysDataBase/AnalysysDataBase-Info.plist";

@@ -36,7 +36,20 @@
 
 - (IBAction)insertAction:(id)sender {
     [[AnalysysDataBase sharedManager] insertLog:@"aaaaaaaaaa" success:^(BOOL isSuccess) {
-        //
+        NSLog(@"success %d", isSuccess);
     }];
 }
+
+- (IBAction)deleteCount:(id)sender {
+    [[AnalysysDataBase sharedManager] deleteLogWithCount:10 finishBlock:^(BOOL isSuccess) {
+        NSLog(@"success %d", isSuccess);
+    }];
+}
+
+- (IBAction)deleteAll:(id)sender {
+    [[AnalysysDataBase sharedManager] deleteAllLogFinishBlock:^(BOOL isSuccess) {
+        NSLog(@"success %d", isSuccess);
+    }];
+}
+
 @end
